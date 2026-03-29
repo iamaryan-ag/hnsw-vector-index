@@ -2,6 +2,7 @@ import numpy as np
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
+from typing import List
 from hnsw import MultiTenantHNSW
 
 app = FastAPI(title="Multi-Tenant HNSW Service")
